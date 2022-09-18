@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;0,900;1,700&family=Playfair+Display:ital,wght@0,400;0,500;0,700;0,900;1,700&family=Roboto:wght@400;700;900&display=swap');
+@font-face {
+	font-family: ProductSans;
+	src: url(../fonts/ProductSans-Black.woff2)format("woff2"),url(../fonts/ProductSans-Black.woff) format("woff");
+font-display: swap;
+font-weight:900;
+font-style: normal;
+}
+@font-face {
+	font-family: ProductSans;
+	src: url(../fonts/ProductSans-Bold.woff2)format("woff2"),url(../fonts/ProductSans-Bold.woff) format("woff");
+font-display: swap;
+font-weight:700;
+font-style: normal;
+}
+@font-face {
+	font-family: ProductSans;
+	src: url(../fonts/ProductSans-Medium.woff2)format("woff2"),url(../fonts/ProductSans-Medium.woff) format("woff");
+font-display: swap;
+font-weight:500;
+font-style: normal;
+}
+
+h1{
+	font-family:ProductSans,sans-serif;
+	font-size: 25px;
+	font-weight: 700;
+	color: red;
+	text-align: center;
+	text-shadow: 3px  3px  3px #000;
+text-transform: uppercase;
+	letter-spacing: 5px;
+	word-spacing: 10px;
+	margin-right: 370px;
+	margin-left: 370px;
+}
+
+body{
+	font-family: "Playfair Display";
+	background-color: darkgrey;
+}
+h2 {
+	font-family:ProductSans,sans-serif;
+	font-weight: 900;
+	font-size: 25px;
+	text-align: center;
+	color: rgb(137, 89, 185);
+	text-shadow: 2px 2px 2px #000 ;
+	letter-spacing: 5px;
+}
+h3{
+	font-family:ProductSans,sans-serif ;
+	font-weight: 900;
+	font-size: 20px;
+	color: brown;
+	text-align: left;
+	padding-left: 150px;
+}
+
+div p {
+font-style: italic;
+padding: 10px 150px;
+text-align: justify;
+font-weight: 700;
+}
+
+.block a{
+	text-decoration: underline;
+	color: blue;
+}
+.text-list ul{
+	text-align: left;
+	background-color: darkolivegreen;
+	color: rgb(83, 33, 15);
+	margin: 10px 750px 30px 170px;
+}
+.block-list a{
+text-decoration: underline;
+color: blue;
+}
+.block-list ul{
+	color: rgb(128, 13, 13);
+	margin: 10px 600px 15px 170px;
+	background-color:rgb(91, 150, 91);
+	line-height: 1.5;
+}
+.list-number ol{
+	color: red;
+	background-color: burlywood;
+	text-align: left;
+margin: 10px 200px 10px 170px;
+line-height: 1.5;
+}
+
+.class-block ul {
+	color: rgb(20, 59, 20);
+	background-color: thistle;
+	margin: 10px 200px 10px 170px;
+	line-height: 1.5;
+}
+
+.number ol{
+	background-color: mediumaquamarine;
+	margin: 10px 200px 30px 170px;
+	line-height: 1.2;
+}
+.end{
+	color: green;
+	padding: 20px 150px;
+}
